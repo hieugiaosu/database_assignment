@@ -1,0 +1,67 @@
+.h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+
+
+
+#printer_number{
+    background: #d2d0d0;
+}
+
+#paper_number{
+    background: #E3C7EF;
+}
+
+#print_session_number{
+    background: #F8F8F8;
+}
+
+#queue{
+    background: #9BC6E9;
+}
+
+#monitor{
+    /* height: 63%; */
+    width: 92%;
+    margin-left: 3.7%;
+    margin-right: 3.5%;
+    margin-bottom: 4%;
+    border: 1px solid #757D8A;
+    background: #FFF;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+#successToast{
+    border-left-color: rgba(0, 204, 153, 1);
+    border-left-width: 3.8px;
+    border-radius: 5px;
+    background: #E3F7F2;
+}
+#failToast{
+    border-left-color: #EB5757;
+    border-left-width: 3.8px;
+    border-radius: 5px;
+    background: #FAECEC;
+}
+.tick{
+    background-color: rgba(0, 204, 153, 1);
+}
+.cross{
+    background-color: #EB5757;
+}
+.Montserrat{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.Montserrat-500{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.theme-color{
+    color: #4834D4;
+}
+.bg-theme-color{
+    color: white;
+    background-color: #4834D4;
+}

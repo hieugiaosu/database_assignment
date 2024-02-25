@@ -1,0 +1,37 @@
+#content {
+	width: 80%;
+	height: 75%;
+	border-radius: 15px;
+	margin-top: 3%;
+	margin-left: 3.7%;
+	margin-right: 3.9%;
+	margin-bottom: 5%;
+	background: linear-gradient(
+		289deg,
+		#4834d4 3.21%,
+		rgba(72, 52, 212, 0) 97.68%
+	);
+}
+#content > div > p {
+	color: var(--light-primary-80, #1443bd);
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+}
+
+#content > div > span > span {
+	color: rgba(42, 132, 198, 1);
+}
+
+#content > div > span > a {
+	border-radius: 8px;
+	color: white;
+	background: var(
+		--button-primary-active,
+		linear-gradient(
+			0deg,
+			rgba(13, 50, 144, 0.2) 0%,
+			rgba(16, 54, 151, 0) 100%
+		),
+		#1443bd
+	);
+}

@@ -1,0 +1,51 @@
+/* navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: stretch;
+    
+    flex: 1;
+}
+nav.navbar.container-fluid
+{
+    background-color: #172C5A;
+    backdrop-filter: blur(10px);
+
+}
+.navmenu {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    list-style-type: none;
+    background-color: #172C5A;
+    color: white;
+    font-weight: bold;
+    font-size:120%;
+}
+
+.nav-item{
+    padding: 0.25rem;
+    margin: 0 1.5rem;
+}
+
+.nav-brand{
+    height: 100%;
+}
+
+#logo{
+    height: 3rem;
+}
+
+
+.navbar .nav-link {
+    margin: 0 10px; /* Adjust the spacing between nav-items */
+}
+
+/* Styles for the image in the center */
+.navbar-logo img {
+    max-height: 100%; /* Ensure the image height doesn't exceed the navbar height */
+    width: auto; /* Adjust the width as needed */
+}

@@ -1,0 +1,79 @@
+#spss {
+	background: linear-gradient(
+		86deg,
+		#7a34d4 0.4%,
+		rgba(15, 150, 208, 0.8) 93.72%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: Nunito;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	letter-spacing: 5px;
+}
+#logo {
+	/* width: 100%;
+	height: 100%; */
+	flex-shrink: 0;
+}
+#login_title {
+	padding-left: 12;
+	color: var(--black-25, #444b59);
+	font-family: Overpass;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+.btn {
+	color: white;
+	font-family: Nunito;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	background: #4834d4;
+	box-shadow: 4px 8px 12px 0px rgba(78, 99, 141, 0.06),
+		0px 4px 12px 0px rgba(200, 211, 249, 0.6) inset;
+}
+
+.button_label {
+	color: #444b59;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration-line: underline;
+}
+
+.form-label {
+	font-family: Nunito;
+	font-weight: 600;
+	color: #444b59;
+}
+
+#forget_password {
+	color: #4834d4;
+	font-family: Nunito;
+	text-decoration: none;
+}
+
+.form-control {
+	border-color: #4834d4;
+}
+#failToast {
+	border-left-color: #eb5757;
+	border-left-width: 3.8px;
+	border-radius: 5px;
+	background: #faecec;
+}
+#forget_password {
+	background-color: transparent;
+	border: 0;
+}
+#forget_password:hover {
+	text-decoration: underline;
+}

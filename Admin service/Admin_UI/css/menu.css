@@ -1,0 +1,58 @@
+#menu {
+	background: #fff;
+	box-shadow: 0px 10px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#logo {
+	width: 68px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.menu_text {
+	color: #000;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+.menu_widget {
+	width: 90%;
+	border-radius: 15.091px;
+	cursor: pointer;
+}
+
+.menu_widget:hover {
+	background-color: #c8c2f2;
+}
+
+.logout_widget {
+	margin-top: 67%;
+	margin-bottom: 10%;
+}
+
+.logout_widget > a {
+	color: #e5613e;
+	font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.logout_widget > a:hover {
+	transform: scale(1.1);
+}
+
+#account_bar > div > svg {
+	width: 60px;
+	height: 60px;
+}
+
+#account_bar > div > span {
+	color: #000;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20.121px;
+	font-weight: 700;
+}

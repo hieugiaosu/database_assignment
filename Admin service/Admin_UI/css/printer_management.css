@@ -1,0 +1,166 @@
+.h5 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	text-align: left;
+}
+
+.general_info {
+	width: 15%;
+	border-radius: 10px;
+}
+.general_attribute {
+	color: #757d8a;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+.quantity {
+	color: #404d61;
+	font-family: "Roboto", sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+#printer_number {
+	background: #d2d0d0;
+}
+
+#paper_number {
+	background: #e3c7ef;
+}
+
+#print_session_number {
+	background: #f8f8f8;
+}
+
+#queue {
+	background: #9bc6e9;
+}
+
+#monitor {
+	height: 63%;
+	width: 92%;
+	margin-left: 3.7%;
+	margin-right: 3.5%;
+	margin-bottom: 4%;
+	border: 1px solid #757d8a;
+	background: #fff;
+	box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#search_tool {
+	height: 8.3%;
+}
+#add_printer {
+	border: 2.5px solid #1e5dff;
+	background: #fff;
+	color: #1e5dff;
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+}
+
+#add_printer:hover {
+	transform: scale(1.05);
+}
+thead {
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+	color: var(--gray-700, #464f60);
+}
+tr {
+	font-size: 15px;
+}
+.printer_list_data {
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+}
+
+.enable {
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
+	color: var(--green-500, #14804a);
+	border-radius: 15px;
+	background: var(--green-0, #e1fcef);
+}
+
+.disable {
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
+	color: var(--red-500, #d12953);
+	border-radius: 10px;
+	background: var(--red-0, #faf0f3);
+}
+
+.delPrinterBtn {
+	width: 17px;
+	height: 17px;
+	cursor: pointer;
+}
+.infoPrinterBtn {
+	width: 19px;
+	height: 19px;
+	cursor: pointer;
+}
+
+.toggle_status:checked {
+	background-color: rgba(118, 238, 89, 1);
+	border-color: rgba(118, 238, 89, 1);
+}
+
+#successToast {
+	border-left-color: rgba(0, 204, 153, 1);
+	border-left-width: 3.8px;
+	border-radius: 5px;
+	background: #e3f7f2;
+}
+#failToast {
+	border-left-color: #eb5757;
+	border-left-width: 3.8px;
+	border-radius: 5px;
+	background: #faecec;
+}
+.tick {
+	background-color: rgba(0, 204, 153, 1);
+}
+.cross {
+	background-color: #eb5757;
+}
+.Montserrat {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+}
+.Montserrat-500 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+}
+.theme-color {
+	color: #4834d4;
+}
+.btn-check + label {
+	color: #757d8a;
+	cursor: pointer;
+}
+
+.btn-check:checked + label {
+	color: black;
+}
+
+#upload-image {
+	aspect-ratio: 1 / 1;
+}
+#upload-image > button:hover {
+	transform: scale(1.1);
+}
+#pageNumber {
+	width: 10%;
+}
+tr {
+	font-size: 14px;
+}
+.pagination-row {
+	font-size: 10px;
+}
+
+.disabled-row {
+	color: #b2bec3;
+}

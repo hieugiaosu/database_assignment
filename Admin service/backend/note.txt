@@ -1,0 +1,41 @@
+userRoutes.js
+    - Get
+    - Post
+    - Put
+    - Delete  
+adminRoutes.js
+    - Get
+printingRoutes.js
+    - Đặt lịch in -> Gọi PROCEDURE PrintSchedule (
+                        IN p_IDNguoiDung VARCHAR(16),
+                        IN p_TenFile VARCHAR(255),
+                        IN p_FilePath VARCHAR(255),
+                        IN p_HuongIn VARCHAR(50),
+                        IN p_SoTrang INT,
+                        IN p_SoBan INT,
+                        IN p_KieuIn VARCHAR(50),
+                        IN p_LoaiGiay VARCHAR(50),
+                        IN p_IDMayIn VARCHAR(16),
+                        IN p_ThoiGianIn TIMESTAMP
+                    )
+    - Hàng đợi -> Gọi Procedure PrintingQueue (
+                        IN p_IDNguoiDung VARCHAR(16)
+                    )
+    - Tài liệu đã in -> Gọi Procedure PrintedDocument
+printerRoutes.js
+    - Quản lý máy in 
+        - Số lượng máy in (Máy in - Count row), Số lượng giấy in (Tổng các trang của tài liệu máy in đó), Số lượt in(In - count row theo ID máy in), Hàng đợi (Tĩnh hiện số))
+        - Post (ID, Hãng, Model, Khay giấy, Loại mực, Vị trí, Tình trạng, In màu, Công suất, Trọng lượng, Kiểu, Tốc độ in, Kích thước, Bộ nhớ)
+        - Get (Model, ID, Vị trí, Tình trạng)
+        - Get by ID (ID, Hãng, Model, Khay giấy, Loại mực, Vị trí, Tình trạng, In màu, Công suất, Trọng lượng, Kiểu, Tốc độ in, Kích thước, Bộ nhớ)
+        - Put (change state Working -> Disabled)
+        - Put by ID (ID, Hãng, Model, Khay giấy, Loại mực, Vị trí, Tình trạng, In màu, Công suất, Trọng lượng, Kiểu, Tốc độ in, Kích thước, Bộ nhớ)
+        - Search máy in trong database
+        - Xem lịch sử in ấn -> Gọi Procedure GetPrintingHistory(IN PrinterID VARCHAR(16)
+
+messageRoutes.js
+revenueRoutes.js
+historyRoutes.js
+    - Xem lịch sử in toàn bộ user -> Gọi Procedure UserPrintingHistory()
+    - Xem lịch sử in của 1 user -> Gọi Procedure PersonalPrintingHistory(IN userID VARCHAR(16))
+    - Xem lịch sử in của máy in
