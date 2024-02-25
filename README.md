@@ -7,10 +7,10 @@
 Dr. Nguyen Thi Ai Thao
 
 ### Student Contributors:
-- Pham The Hieu - 2111213
-- Do Tin Nghia - 2111837
-- Huynh Thai Hoc - 2113443
-- Ta Dinh Tien - 2110583
+- Pham The Hieu - 2111213 - Database design, design user service, architecture design
+- Do Tin Nghia - 2111837 - Receptionist service
+- Huynh Thai Hoc - 2113443 - admin service
+- Ta Dinh Tien - 2110583 - Report writer
 ## System Requirement:
 
 Xây dựng hệ thống quản lý phòng net giúp quản lý net một cách dễ dàng, thân thiện.
